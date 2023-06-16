@@ -12,4 +12,4 @@ def shop_index(request: HttpRequest):
         'time_running': default_timer(),
         'products': products,
     }
-    return render(request, 'shopaap/shop_index.html', context= context)
+    return render(request, 'shopapp/shop_index.html', context= context)
