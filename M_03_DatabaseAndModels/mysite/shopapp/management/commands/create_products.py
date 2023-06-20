@@ -13,6 +13,6 @@ class Command(BaseCommand):
             'Smartphone'
         ]
         for product_name in products_name:
-            product, created = Product.objects.get_or_create(name=products_name)
-            self.stdout.write(f'Create product {product_name}')
+            product, created = Product.objects.get_or_create(name=product_name)
+            self.stdout.write(f'Create product {product.name}')
         self.stdout.write(self.style.SUCCESS('Products created'))
