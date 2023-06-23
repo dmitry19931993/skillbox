@@ -1,0 +1,31 @@
+{% extends 'shopapp/base.html' %}
+
+{% block title %}
+Shop Index
+{% endblock %}
+
+{% block body%}
+<div>
+  {% filter force_escape|lower %}
+    This text will be HTML-escaped, and will appear in all lowercase.
+  {% endfilter %}
+</div>
+
+<div>
+{% lorem %}
+</div>
+
+<div>
+It is {% now "jS F Y H:i" %}
+</div>
+
+<div>
+  <ul>
+    {% for product in products %}
+    <li>
+      {{product}}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}
