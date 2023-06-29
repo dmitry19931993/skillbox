@@ -3,7 +3,7 @@ from timeit import default_timer
 from django.contrib.auth.models import Group
 from django.http import HttpResponse, HttpRequest
 from django.shortcuts import render, redirect, reverse
-from .forms import ProductForm
+from .forms import ProductForm, OrderForm
 from .models import Product, Order
 
 
@@ -47,6 +47,21 @@ def create_product(request: HttpRequest):
         "form": form,
     }
     return render(request, 'shopapp/create-product.html', context=context)
+
+def create_order(request: HttpRequest):
+    if request.method == 'POST':
+        form = OrderForm(request.POST)
+        if form.is_valid():
+            #Product.objects.create(**form.cleaned_data)
+            form.save()
+            url = reverse("shopapp:orders_list")
+            return redirect(url)
+    else:
+        form = OrderForm()
+    context = {
+        "form": form,
+    }
+    return render(request, 'shopapp/create-order.html', context=context)
 
 
 def orders_list(request: HttpRequest):
