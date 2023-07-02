@@ -2,30 +2,47 @@ from timeit import default_timer
 
 from django.contrib.auth.models import Group
 from django.http import HttpResponse, HttpRequest
-from django.shortcuts import render, redirect, reverse
-from .forms import ProductForm, OrderForm
+from django.shortcuts import render, redirect, reverse, get_object_or_404
+from .forms import ProductForm, OrderForm, GroupForm
 from .models import Product, Order
+from django.views import View
 
 
-def shop_index(request: HttpRequest):
-    products = [
-        ('Laptop', 1999),
-        ('Desktop', 2999),
-        ('Smartphone', 999),
-    ]
-    context = {
-        "time_running": default_timer(),
-        "products": products,
-    }
-    return render(request, 'shopapp/shop-index.html', context=context)
+class ShopIndexView(View):
+    def get(self, request: HttpRequest) -> HttpResponse:
+        products = [
+            ('Laptop', 1999),
+            ('Desktop', 2999),
+            ('Smartphone', 999),
+        ]
+        context = {
+            "time_running": default_timer(),
+            "products": products,
+        }
+        return render(request, 'shopapp/shop-index.html', context=context)
 
+class GroupsListView(View):
+    def get(self, request: HttpRequest) -> HttpResponse:
+        context = {
+            'form': GroupForm,
+            "groups": Group.objects.prefetch_related('permissions').all(),
+        }
+        return render(request, 'shopapp/groups-list.html', context=context)
 
-def groups_list(request: HttpRequest):
-    context = {
-        "groups": Group.objects.prefetch_related('permissions').all(),
-    }
-    return render(request, 'shopapp/groups-list.html', context=context)
+    def post(self, request: HttpRequest):
+        form = GroupForm(request.POST)
+        if form.is_valid():
+            form.save()
 
+        return redirect(request.path)
+
+class ProductDetailView(View):
+    def get(self, request: HttpRequest, pk: int) -> HttpResponse:
+        product = get_object_or_404(Product, pk=pk)
+        context = {
+            'product': product,
+        }
+        return render(request, 'shopapp/products-detail.html', context=context)
 
 def products_list(request: HttpRequest):
     context = {

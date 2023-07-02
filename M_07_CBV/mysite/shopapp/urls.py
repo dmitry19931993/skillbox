@@ -1,13 +1,22 @@
 from django.urls import path
 
-from .views import shop_index, groups_list, products_list, orders_list, create_product, create_order
+from .views import (
+    ShopIndexView,
+    GroupsListView,
+    ProductDetailView,
+    products_list,
+    orders_list,
+    create_product,
+    create_order
+)
 
 app_name = "shopapp"
 
 urlpatterns = [
-    path("", shop_index, name="index"),
-    path("groups/", groups_list, name="groups_list"),
+    path("", ShopIndexView.as_view(), name="index"),
+    path("groups/", GroupsListView.as_view(), name="groups_list"),
     path("products/", products_list, name="products_list"),
+    path("products/<int:pk>/", ProductDetailView.as_view(), name="products_detail"),
     path("products/create", create_product, name="create-product"),
     path("orders/", orders_list, name="orders_list"),
     path("orders/create", create_order, name="create-order")
