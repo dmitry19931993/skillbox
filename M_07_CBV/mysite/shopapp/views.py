@@ -3,6 +3,8 @@ from timeit import default_timer
 from django.contrib.auth.models import Group
 from django.http import HttpResponse, HttpRequest
 from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.views.generic import TemplateView
+
 from .forms import ProductForm, OrderForm, GroupForm
 from .models import Product, Order
 from django.views import View
@@ -44,6 +46,14 @@ class ProductDetailView(View):
         }
         return render(request, 'shopapp/products-detail.html', context=context)
 
+
+class ProductListView(TemplateView):
+    template_name = 'shopapp/products-list.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['products'] = Product.objects.all()
+        return context
 def products_list(request: HttpRequest):
     context = {
         "products": Product.objects.all(),
