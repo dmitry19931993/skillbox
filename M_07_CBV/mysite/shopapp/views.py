@@ -3,7 +3,7 @@ from timeit import default_timer
 from django.contrib.auth.models import Group
 from django.http import HttpResponse, HttpRequest
 from django.shortcuts import render, redirect, reverse, get_object_or_404
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, ListView, DetailView
 
 from .forms import ProductForm, OrderForm, GroupForm
 from .models import Product, Order
@@ -38,27 +38,16 @@ class GroupsListView(View):
 
         return redirect(request.path)
 
-class ProductDetailView(View):
-    def get(self, request: HttpRequest, pk: int) -> HttpResponse:
-        product = get_object_or_404(Product, pk=pk)
-        context = {
-            'product': product,
-        }
-        return render(request, 'shopapp/products-detail.html', context=context)
+class ProductDetailView(DetailView):
+    template_name = 'shopapp/products-detail.html'
+    model = Product
+    context_object_name = 'products'
 
 
-class ProductListView(TemplateView):
+class ProductListView(ListView):
     template_name = 'shopapp/products-list.html'
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['products'] = Product.objects.all()
-        return context
-def products_list(request: HttpRequest):
-    context = {
-        "products": Product.objects.all(),
-    }
-    return render(request, 'shopapp/products-list.html', context=context)
+    model = Product
+    context_object_name = 'products'
 
 def create_product(request: HttpRequest):
     if request.method == 'POST':
@@ -91,8 +80,17 @@ def create_order(request: HttpRequest):
     return render(request, 'shopapp/create-order.html', context=context)
 
 
-def orders_list(request: HttpRequest):
-    context = {
-        "orders": Order.objects.select_related("user").prefetch_related("products").all(),
-    }
-    return render(request, 'shopapp/orders-list.html', context=context)
+
+class OrderListView(ListView):
+    queryset = (
+        Order.objects
+        .select_related("user")
+        .prefetch_related("products")
+    )
+
+class OrderDetailView(DetailView):
+    queryset = (
+        Order.objects
+        .select_related("user")
+        .prefetch_related("products")
+    )
