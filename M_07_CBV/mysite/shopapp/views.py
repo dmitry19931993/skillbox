@@ -75,6 +75,12 @@ class ProductDeleteView(DeleteView):
         self.object.save()
         return HttpResponseRedirect(success_url)
 
+
+class OrderCreateView(CreateView):
+    model = Order
+    form_class = OrderForm
+    success_url = reverse_lazy('shopapp:orders_list')
+
 def create_order(request: HttpRequest):
     if request.method == 'POST':
         form = OrderForm(request.POST)
