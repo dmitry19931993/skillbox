@@ -23,6 +23,10 @@
 
         </div>
 <div>
+  <a href=" {% url 'shopapp:orders_update' pk=object.pk %} ">
+    >Order update</a>
+</div>
+<div>
   <a href=" {% url 'shopapp:orders_list' %} ">
     >Back to orders</a>
 </div>

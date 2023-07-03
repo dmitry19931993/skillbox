@@ -76,26 +76,12 @@ class ProductDeleteView(DeleteView):
         return HttpResponseRedirect(success_url)
 
 
-class OrderCreateView(CreateView):
-    model = Order
-    form_class = OrderForm
-    success_url = reverse_lazy('shopapp:orders_list')
-
-def create_order(request: HttpRequest):
-    if request.method == 'POST':
-        form = OrderForm(request.POST)
-        if form.is_valid():
-            form.save()
-            url = reverse("shopapp:orders_list")
-            return redirect(url)
-    else:
-        form = OrderForm()
-    context = {
-        "form": form,
-    }
-    return render(request, 'shopapp/create-order.html', context=context)
-
-
+class OrderDetailView(DetailView):
+    queryset = (
+        Order.objects
+        .select_related("user")
+        .prefetch_related("products")
+    )
 
 class OrderListView(ListView):
     queryset = (
@@ -104,9 +90,18 @@ class OrderListView(ListView):
         .prefetch_related("products")
     )
 
-class OrderDetailView(DetailView):
-    queryset = (
-        Order.objects
-        .select_related("user")
-        .prefetch_related("products")
-    )
+class OrderCreateView(CreateView):
+    model = Order
+    form_class = OrderForm
+    success_url = reverse_lazy('shopapp:orders_list')
+
+class OrderUpdateView(UpdateView):
+    model = Order
+    fields = "user", "delivery_address", "promocode", "products",
+    template_name_suffix = "_update_form"
+
+    def get_success_url(self):
+        return reverse(
+            "shopapp:orders_detail",
+            kwargs={"pk" : self.object.pk},
+        )
