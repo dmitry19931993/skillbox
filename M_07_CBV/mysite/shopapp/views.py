@@ -105,3 +105,7 @@ class OrderUpdateView(UpdateView):
             "shopapp:orders_detail",
             kwargs={"pk" : self.object.pk},
         )
+
+class OrderDeleteView(DeleteView):
+    model = Order
+    success_url = reverse_lazy('shopapp:orders_list')

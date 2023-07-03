@@ -27,6 +27,10 @@
     >Order update</a>
 </div>
 <div>
+  <a href=" {% url 'shopapp:orders_delete' pk=object.pk %} ">
+    >Order delete</a>
+</div>
+<div>
   <a href=" {% url 'shopapp:orders_list' %} ">
     >Back to orders</a>
 </div>
