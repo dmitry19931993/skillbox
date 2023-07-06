@@ -1,24 +1,30 @@
+from django.contrib.auth.views import LogoutView
 from django.shortcuts import render, redirect
-from django.contrib.auth import authenticate, login
-from django.http import HttpRequest
+from django.contrib.auth import authenticate, login, logout
+from django.http import HttpRequest, HttpResponse
+from django.urls import reverse_lazy
 
 
-def login_view(request: HttpRequest):
-    if request.method == "GET":
-        if request.user.is_authenticated:
-            return redirect('/admin/')
+def logout_view(request: HttpRequest):
+    logout(request)
+    return redirect(reverse("myauth:login"))
 
-        return render(request, 'myauth/login.html')
+class MyLogoutView(LogoutView):
+    next_page = reverse_lazy("myauth:login")
 
-    username = request.POST['username']
-    password = request.POST['password']
+def set_cookie_view(request: HttpRequest) -> HttpResponse:
+    response = HttpResponse("Cookie set")
+    response.set_cookie("fizz", "buzz", max_age=3600)
+    return response
 
-    user = authenticate(request, username=username, pasword=password)
+def get_cookie_view(request: HttpRequest) -> HttpResponse:
+    value = request.COOKIES.get("fizz", "defaultvalue")
+    return HttpResponse(f"Cookie value: {value!r}")
 
-    if user is not None:
-        login(request, user)
-        return redirect('/admin/')
+def set_session_view(request: HttpRequest) -> HttpResponse:
+    request.session["foobar"] = "spameggs"
+    return HttpResponse("Session set")
 
-    return render(request, 'myauth/login.html', {'error' : 'Invalid login credentials'})
-
-
+def get_session_view(request: HttpRequest) -> HttpResponse:
+    value = request.session.get("foobar", "default")
+    return HttpResponse(f"Session value: {value!r}")
