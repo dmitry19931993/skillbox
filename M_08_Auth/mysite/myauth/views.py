@@ -1,13 +1,8 @@
 from django.contrib.auth.views import LogoutView
-from django.shortcuts import render, redirect
-from django.contrib.auth import authenticate, login, logout
 from django.http import HttpRequest, HttpResponse
 from django.urls import reverse_lazy
 
 
-def logout_view(request: HttpRequest):
-    logout(request)
-    return redirect(reverse("myauth:login"))
 
 class MyLogoutView(LogoutView):
     next_page = reverse_lazy("myauth:login")
