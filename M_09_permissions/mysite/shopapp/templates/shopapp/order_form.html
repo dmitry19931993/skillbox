@@ -1,17 +1,11 @@
 {% extends 'shopapp/base.html' %}
 
 {% block title %}
-  Archive product {{ object.name }}
+  Create order
 {% endblock %}
 
 {% block body %}
-  <h1>Are you sure you want to archive product {{ object.name }}?</h1>
-<br>
-<div>
-    <a href=" {% url 'shopapp:products_detail' pk=object.pk %} ">
-    >Back to #{{ object.pk }}</a>
-</div>
-<br>
+  <h1>Create a new order</h1>
   <div>
       <form method="post">
           {% csrf_token %}
@@ -19,11 +13,14 @@
           {{ form.as_p }}
 
           <button type="submit">
-              Archive
+              Create
           </button>
 
       </form>
   </div>
 
-
+<div>
+  <a href=" {% url 'shopapp:orders_list' %} ">
+    >Back to orders-list</a>
+</div>
 {% endblock %}
