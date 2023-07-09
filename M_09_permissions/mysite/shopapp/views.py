@@ -49,9 +49,9 @@ class ProductListView(ListView):
     queryset = Product.objects.filter(archived=False)
     context_object_name = 'products'
 
-class ProductCreateView(UserPassesTestMixin, CreateView):
-    def test_func(self):
-        return self.request.user.is_superuser
+class ProductCreateView(PermissionRequiredMixin, CreateView):
+
+    permission_required = "shopapp.add_product"
     model = Product
     form_class = ProductForm
     success_url = reverse_lazy('shopapp:products_list')
