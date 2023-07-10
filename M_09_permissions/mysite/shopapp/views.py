@@ -60,9 +60,13 @@ class ProductCreateView(PermissionRequiredMixin, CreateView):
         form.instance.created_by = self.request.user
         return super().form_valid(form)
 
-class ProductUpdateView(UpdateView):
+class ProductUpdateView(PermissionRequiredMixin, UserPassesTestMixin, UpdateView):
+    def test_func(self):
+        return self.request.user == self.get_object().created_by or self.request.user.is_superuser
+
+    permission_required = "shopapp.change_product"
     model = Product
-    fields = "name", "price", "description", "discount",
+    fields = "name", "price", "description", "discount", "created_by",
     template_name_suffix = "_update_form"
 
     def get_success_url(self):
