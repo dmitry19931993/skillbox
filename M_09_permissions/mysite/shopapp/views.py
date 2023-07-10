@@ -56,6 +56,10 @@ class ProductCreateView(PermissionRequiredMixin, CreateView):
     form_class = ProductForm
     success_url = reverse_lazy('shopapp:products_list')
 
+    def form_valid(self, form):
+        form.instance.created_by = self.request.user
+        return super().form_valid(form)
+
 class ProductUpdateView(UpdateView):
     model = Product
     fields = "name", "price", "description", "discount",
