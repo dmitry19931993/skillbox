@@ -94,7 +94,8 @@ class OrderListViewTestCase(TestCase):
     def test_order_list_view_not_authenticated(self):
         self.client.logout()
         response = self.client.get(reverse("shopapp:orders_list"))
-        self.assertRedirects(response, str(settings.LOGIN_URL))
+        self.assertEqual(response.status_code, 302)
+        self.assertIn(str(settings.LOGIN_URL), response.url)
 
 class ProductsExportViewTestCase(TestCase):
     fixtures = [
