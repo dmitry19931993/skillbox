@@ -8,12 +8,13 @@ class GetCookieViewTestCase(TestCase):
         self.assertContains(response, "Cookie value")
 
 
-class FooBarViewTest(TestCase):
+class FooBarViewTestCase(TestCase):
     def test_foo_bar_view(self):
         response = self.client.get(reverse("myauth:foo-bar"))
-        self.assertEqual(response.status_code, 200)
-        self.assertEqual(
-            response.headers['content-type'], 'application/json',
+        self.assertEquals(response.status_code, 200)
+        self.assertEquals(
+            response.headers['content-type'], "application/json",
         )
-        expected_data = {"spam": "eggs", "foo": "bar"}
+        expected_data = {"foo": "bar", "spam": "eggs"}
+
         self.assertJSONEqual(response.content, expected_data)

@@ -1,14 +1,14 @@
 {% extends 'shopapp/base.html' %}
 
 {% block title %}
-  Archive product {{ object.name }}
+  Delete order {{ object.name }}
 {% endblock %}
 
 {% block body %}
-  <h1>Are you sure you want to archive product {{ object.name }}?</h1>
+  <h1>Are you sure you want to delete order {{ object.name }}?</h1>
 <br>
 <div>
-    <a href=" {% url 'shopapp:products_detail' pk=object.pk %} ">
+    <a href=" {% url 'shopapp:orders_detail' pk=object.pk %} ">
     >Back to #{{ object.pk }}</a>
 </div>
 <br>
@@ -19,7 +19,7 @@
           {{ form.as_p }}
 
           <button type="submit">
-              Archive
+              Delete
           </button>
 
       </form>
