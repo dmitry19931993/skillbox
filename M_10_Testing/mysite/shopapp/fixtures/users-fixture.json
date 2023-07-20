@@ -31,9 +31,7 @@
       "is_staff": true,
       "is_active": true,
       "date_joined": "2023-07-07T21:18:54Z",
-      "groups": [
-        4
-      ],
+      "groups": [],
       "user_permissions": [
         4
       ]
@@ -44,7 +42,7 @@
     "pk": 3,
     "fields": {
       "password": "pbkdf2_sha256$320000$GooFGh74vCcKwv98OqcaVP$+yTDCMFNv/HZFdQevfjuUzhk4GG7qLWzvRHn5bzX8gY=",
-      "last_login": "2023-07-18T20:04:32.879Z",
+      "last_login": "2023-07-18T20:04:32Z",
       "is_superuser": false,
       "username": "sam",
       "first_name": "",
@@ -53,9 +51,7 @@
       "is_staff": false,
       "is_active": true,
       "date_joined": "2023-07-07T21:39:19Z",
-      "groups": [
-        3
-      ],
+      "groups": [],
       "user_permissions": [
         4,
         32,

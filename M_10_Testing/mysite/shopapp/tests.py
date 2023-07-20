@@ -59,6 +59,7 @@ class ProductListViewTestCase(TestCase):
 
     fixtures = [
         "products-fixture.json",
+        "users-fixture.json",
     ]
     def test_product(self):
         response = self.client.get(
@@ -100,10 +101,11 @@ class OrderListViewTestCase(TestCase):
 class ProductsExportViewTestCase(TestCase):
     fixtures = [
         "products-fixture.json",
+        "users-fixture.json",
     ]
 
     def test_get_products_view(self):
-        response = self.client.get(reverse("shopapp:products-export"))
+        response = self.client.get(reverse("shopapp:products-export"),)
         self.assertEqual(response.status_code, 200)
         products = Product.objects.order_by("pk").all()
         expected_data = [
@@ -115,7 +117,7 @@ class ProductsExportViewTestCase(TestCase):
             }
         for product in products
         ]
-        products_data = response.json
+        products_data = response.json()
         self.assertEqual(
             products_data["products"],
             expected_data,
