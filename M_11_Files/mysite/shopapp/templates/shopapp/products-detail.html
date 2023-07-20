@@ -11,6 +11,9 @@
   <div>Price: {{ object.price }}</div>
   <div>Discount: {{ object.discount }}</div>
   <div>Archived: {{ object.archived }}</div>
+  {% if object.preview %}
+    <img src="{{ object.preview.url }}" alt="{{ object.preview.name }}">
+  {% endif %}
 </div>
 <div>
   <a href=" {% url 'shopapp:products_update' pk=object.pk %} ">

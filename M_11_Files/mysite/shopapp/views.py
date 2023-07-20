@@ -66,7 +66,7 @@ class ProductUpdateView(PermissionRequiredMixin, UpdateView):
 
     permission_required = "shopapp.change_product"
     model = Product
-    fields = "name", "price", "description", "discount", "created_by",
+    fields = "name", "price", "description", "discount", "created_by", "preview",
     template_name_suffix = "_update_form"
 
     def get_success_url(self):
