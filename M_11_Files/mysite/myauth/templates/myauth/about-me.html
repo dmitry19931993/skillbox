@@ -13,7 +13,18 @@
 <p>Lastname: {{user.lastname}}</p>
 <p>Email: {{user.email}}</p>
 <p>Bio: {{user.profile.boi}}</p>
+  {% if user.profile.avatar %}
+    <img src="{{ user.profile.avatar.url }}" alt="{{ user.profile.avatar.name }}">
+  {% else %}
+    <h2>Фото не загружено</h2>
+  {% endif %}
 {% else %}
 <h2>User is anonymous</h2>
+{% endif %}
+{% if user.profile.pk %}
+<div>
+  <a href=" {% url 'myauth:update' pk=user.profile.pk %} ">
+    >Foto update</a>
+</div>
 {% endif %}
 {% endblock %}
