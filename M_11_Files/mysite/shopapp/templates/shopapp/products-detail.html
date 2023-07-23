@@ -14,6 +14,15 @@
   {% if object.preview %}
     <img src="{{ object.preview.url }}" alt="{{ object.preview.name }}">
   {% endif %}
+  <h3>Images</h3>
+  {% for img in object.images.all %}
+  <div>
+    <img src="{{ img.image.url }}" alt="{{ img.image.name }}">
+    <div>{{ img.description }}</div>
+    {% empty %}
+    <div>No images uploaded yet</div>
+  </div>
+  {% endfor %}
 </div>
 <div>
   <a href=" {% url 'shopapp:products_update' pk=object.pk %} ">
