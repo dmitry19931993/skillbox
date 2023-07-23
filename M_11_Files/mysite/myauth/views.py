@@ -5,10 +5,21 @@ from django.contrib.auth.views import LogoutView
 from django.http import HttpRequest, HttpResponse, JsonResponse
 from django.urls import reverse_lazy
 from django.views import View
-from django.views.generic import TemplateView, CreateView
+from django.views.generic import TemplateView, CreateView, UpdateView, ListView, DetailView
 from .models import Profile
+from django.contrib.auth.mixins import UserPassesTestMixin
+from django.shortcuts import reverse
+from django.contrib.auth.models import User
 
+class UserListView(ListView):# отбражение пользователей
+    template_name = 'myauth/users_list.html'
+    model = User
+    context_object_name = 'users'
 
+class UserDetailView(DetailView):# отбражение подробное пользователя
+    template_name = 'myauth/users_detail.html'
+    model = User
+    context_object_name = 'products'
 
 class RegisterView(CreateView):
     form_class = UserCreationForm
@@ -27,6 +38,20 @@ class RegisterView(CreateView):
         )
         login(request=self.request, user=user)
         return response
+
+class UserUpdateView(UserPassesTestMixin, UpdateView):# изменение данных пользователя в том числе аватара
+
+    def test_func(self):
+        return self.request.user == self.get_object().user or self.request.user.is_superuser
+
+    model = Profile
+    fields = "avatar",
+    template_name = "myauth/update_user.html"
+
+    def get_success_url(self):
+        return reverse(
+            "myauth:users_list"
+        )
 
 class AboutMeView(TemplateView):
     template_name = "myauth/about-me.html"
