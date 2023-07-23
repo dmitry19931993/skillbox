@@ -6,7 +6,7 @@ from django.shortcuts import render, redirect, reverse
 from django.urls import reverse_lazy
 from django.views.generic import TemplateView, ListView, DetailView, CreateView, UpdateView, DeleteView
 from .forms import ProductForm, OrderForm, GroupForm
-from .models import Product, Order
+from .models import Product, Order, ImageProduct
 from django.views import View
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin, UserPassesTestMixin
 
@@ -40,7 +40,7 @@ class GroupsListView(View):
 
 class ProductDetailView(DetailView):
     template_name = 'shopapp/products-detail.html'
-    model = Product
+    queryset = Product.objects.prefetch_related("images")
     context_object_name = 'products'
 
 
@@ -66,7 +66,7 @@ class ProductUpdateView(PermissionRequiredMixin, UpdateView):
 
     permission_required = "shopapp.change_product"
     model = Product
-    fields = "name", "price", "description", "discount", "created_by", "preview",
+    form_class = ProductForm
     template_name_suffix = "_update_form"
 
     def get_success_url(self):
@@ -74,6 +74,15 @@ class ProductUpdateView(PermissionRequiredMixin, UpdateView):
             "shopapp:products_detail",
             kwargs={"pk" : self.object.pk},
         )
+
+    def form_valid(self, form):
+        response = super().form_valid(form)
+        for image in form.files.getlist("images"):
+            ImageProduct.objects.create(
+                products=self.object,
+                image=image,
+            )
+        return response
 
 class ProductDeleteView(DeleteView):
     model = Product
