@@ -49,9 +49,14 @@ class UserUpdateView(UserPassesTestMixin, UpdateView):# изменение да�
     template_name = "myauth/update_user.html"
 
     def get_success_url(self):
-        return reverse(
-            "myauth:users_list"
-        )
+        if self.request.user == self.get_object().user:
+            return reverse(
+                "myauth:about-me"
+            )
+        else:
+            return reverse(
+                "myauth:users"
+            )
 
 class AboutMeView(TemplateView):
     template_name = "myauth/about-me.html"

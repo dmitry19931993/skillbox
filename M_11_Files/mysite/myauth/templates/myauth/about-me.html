@@ -13,18 +13,23 @@
 <p>Lastname: {{user.lastname}}</p>
 <p>Email: {{user.email}}</p>
 <p>Bio: {{user.profile.boi}}</p>
-  {% if user.profile.avatar %}
+  {% if user.profile.avatar and user.profile.pk %}
     <img src="{{ user.profile.avatar.url }}" alt="{{ user.profile.avatar.name }}">
+    <div>
+       <a href=" {% url 'myauth:update' pk=user.profile.pk %} ">
+       >Foto update</a>
+    </div>
+  {% elif not user.profile.pk%}
+    <h2>Фото не загружено</h2>
   {% else %}
     <h2>Фото не загружено</h2>
+    <div>
+       <a href=" {% url 'myauth:update' pk=user.profile.pk %} ">
+       >Foto add</a>
+    </div>
   {% endif %}
 {% else %}
 <h2>User is anonymous</h2>
 {% endif %}
-{% if user.profile.pk %}
-<div>
-  <a href=" {% url 'myauth:update' pk=user.profile.pk %} ">
-    >Foto update</a>
-</div>
-{% endif %}
+
 {% endblock %}

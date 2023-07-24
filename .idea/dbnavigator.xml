@@ -20,10 +20,14 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="dec16800-d965-4e26-b56a-fe7be7471b2e" object-ref="schemas/main/tables/auth_user" />
+      <object connection-id="dec16800-d965-4e26-b56a-fe7be7471b2e" object-ref="schemas/main/tables/myauth_profile" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="dec16800-d965-4e26-b56a-fe7be7471b2e" dataset="main.auth_user" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="dec16800-d965-4e26-b56a-fe7be7471b2e" dataset="main.auth_user_groups" active-filter-id="" />
     <filter-actions connection-id="dec16800-d965-4e26-b56a-fe7be7471b2e" dataset="main.sqlite_sequence" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="dec16800-d965-4e26-b56a-fe7be7471b2e" dataset="main.myauth_profile" active-filter-id="EMPTY_FILTER" />
   </component>
