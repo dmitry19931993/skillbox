@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'shopapp.apps.ShopappConfig',
+    'requestdataapp.apps.RequestdataappConfig',
     'myauth.apps.MyauthConfig',
+
 ]
 
 MIDDLEWARE = [
@@ -121,12 +123,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = 'static/'
-
-
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'uploads'
-# DEFAULT_FILE_STORAGE =
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 

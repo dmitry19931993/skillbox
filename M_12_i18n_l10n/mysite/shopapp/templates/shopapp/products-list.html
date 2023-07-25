@@ -10,13 +10,14 @@
     <div>
     {% for product in products %}
       <div>
-        <p><a href="{% url 'shopapp:product_details' pk=product.pk %}"
+        <p><a href="{% url 'shopapp:products_detail' pk=product.pk %}"
         >Name: {{ product.name }}</a></p>
+        <p>Product by {% firstof product.created_by.first_name product.created_by.username %}</p>
         <p>Price: {{ product.price }}</p>
         <p>Discount: {% firstof product.discount 'no discount' %}</p>
 
         {% if product.preview %}
-          <img src="{{ product.preview.url }}" alt="{{ product.preview.name }}">
+            <img src="{{ product.preview.url }}" alt="{{ product.preview.name }}">
         {% endif %}
       </div>
     {% endfor %}
@@ -26,9 +27,10 @@
   {% else %}
     <h3>No products yet</h3>
   {% endif %}
-
+  {% if perms.shopapp.add_product %}
   <div>
-    <a href="{% url 'shopapp:product_create' %}"
+    <a href=" {% url 'shopapp:create-product' %} ">
       >Create a new product</a>
   </div>
+  {% endif %}
 {% endblock %}
