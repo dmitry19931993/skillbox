@@ -5,11 +5,31 @@ from django.contrib.auth.views import LogoutView
 from django.http import HttpRequest, HttpResponse, JsonResponse
 from django.urls import reverse_lazy
 from django.views import View
-from django.views.generic import TemplateView, CreateView, UpdateView, ListView, DetailView
+from django.views.generic import TemplateView, CreateView, UpdateView, ListView, DetailView, View
 from .models import Profile
 from django.contrib.auth.mixins import UserPassesTestMixin
 from django.shortcuts import reverse
 from django.contrib.auth.models import User
+from django.utils.translation import gettext_lazy as _, ngettext
+
+
+
+
+class HelloWorldView(View):
+    velcome_message = _("Hello World")
+    def get(self, request:HttpRequest) -> HttpResponse:
+        items_str = request.GET.get("items") or 0
+        items = int(items_str)
+        products_line = ngettext(
+            "one product",
+            "{count} products",
+            items,
+        )
+        products_line = products_line.format(count=items)
+        return HttpResponse(
+            f"<h1>{self.velcome_message}</h1>"
+            f"\n<h2>{products_line}</h>"
+        )
 
 class UserListView(ListView):# отбражение пользователей
     template_name = 'myauth/users_list.html'

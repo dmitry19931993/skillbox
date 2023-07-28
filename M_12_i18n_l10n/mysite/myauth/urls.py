@@ -12,7 +12,7 @@ from .views import (
     UserUpdateView,
     UserListView,
     UserDetailView,
-)
+    HelloWorldView,)
 
 app_name = "myauth"
 
@@ -23,6 +23,7 @@ urlpatterns = [
              redirect_authenticated_user=True,
          ),
          name="login"),
+    path("hello/", HelloWorldView.as_view(), name="hello"),
     path("logout/", MyLogoutView.as_view(), name="logout"),
     path("users/", UserListView.as_view(), name="users"),
     path("users/<int:pk>/", UserDetailView.as_view(), name="users_detail"),
