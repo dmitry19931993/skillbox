@@ -12,31 +12,40 @@ from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMix
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.filters import SearchFilter, OrderingFilter
 from django_filters.rest_framework import DjangoFilterBackend
-from .serializers import ProductSerializer
+from .serializers import ProductSerializer, OrderSerializer
 
 class ProductViewSet(ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
     filter_backends = [
         SearchFilter,
-        DjangoFilterBackend,
         OrderingFilter,
     ]
     search_fields = [
         "name",
         "description",
     ]
-    filterset_fields = [
-        "name",
-        "description",
-        "price",
-        "discount",
-        "archived",
-    ]
     ordering_fields = [
         "name",
         "price",
         "discount",
+    ]
+
+class OrderViewSet(ModelViewSet):
+    queryset = Order.objects.all()
+    serializer_class = OrderSerializer
+    filter_backends = [
+        OrderingFilter,
+    ]
+    filterset_fields = [
+        "user",
+        "delivery_address",
+        "promocode",
+        "products"
+    ]
+    ordering_fields = [
+        "user",
+        "products",
     ]
 
 class ShopIndexView(View):

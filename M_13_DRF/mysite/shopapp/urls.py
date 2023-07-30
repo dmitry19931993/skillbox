@@ -17,10 +17,13 @@ from .views import (
     OrderDeleteView,
     ProductsDataExportView,
     ProductViewSet,
+    OrderViewSet,
 )
 
 routers = DefaultRouter()
 routers.register("products", ProductViewSet)
+routers.register("orders", OrderViewSet)
+
 
 
 app_name = "shopapp"
