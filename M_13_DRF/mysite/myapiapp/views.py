@@ -5,9 +5,9 @@ from django.contrib.auth.models import Group
 from rest_framework.views import APIView
 from rest_framework.generics import GenericAPIView
 from rest_framework.mixins import ListModelMixin
+from shopapp.models import Product, Order
 
-from .serializers import GroupSelializer
-
+from .serializers import GroupSelializer, OrderSelializer, ProductSelializer
 @api_view()
 def hello_world_view(request: Request)-> Response:
     return Response({"message": "Hello World"})
@@ -15,5 +15,17 @@ def hello_world_view(request: Request)-> Response:
 class GroupsListView(ListModelMixin, GenericAPIView):
     queryset = Group.objects.all()
     serializer_class = GroupSelializer
+    def get(self, request: Request) -> Response:
+        return self.list(request)
+
+class ProductsListView(ListModelMixin, GenericAPIView):
+    queryset = Product.objects.all()
+    serializer_class = ProductSelializer
+    def get(self, request: Request) -> Response:
+        return self.list(request)
+
+class OrdersListView(ListModelMixin, GenericAPIView):
+    queryset = Order.objects.all()
+    serializer_class = OrderSelializer
     def get(self, request: Request) -> Response:
         return self.list(request)
