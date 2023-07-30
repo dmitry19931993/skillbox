@@ -1,8 +1,17 @@
 from django.urls import path
 
-from myapiapp import views
+from .views import (
+    hello_world_view,
+    GroupsListView,
+    ProductsListView,
+    OrdersListView,
+)
+
+app_name = "myapiapp"
 
 urlpatterns = [
-    path('hello/', views.hello_world_view),
-    path('groups/', views.GroupsListView.as_view()),
+    path("hello/", hello_world_view, name="hello"),
+    path("groups/", GroupsListView.as_view(), name="groups"),
+    path("products/", ProductsListView.as_view(), name="products"),
+    path("orders/", OrdersListView.as_view(), name="orders"),
 ]

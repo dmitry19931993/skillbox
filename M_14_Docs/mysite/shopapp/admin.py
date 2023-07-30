@@ -2,16 +2,15 @@ from django.contrib import admin
 from django.db.models import QuerySet
 from django.http import HttpRequest
 
-from .models import Product, Order, ProductImage
+from .models import Product, Order, ImageProduct
 from .admin_mixins import ExportAsCSVMixin
 
 
 class OrderInline(admin.TabularInline):
     model = Product.orders.through
 
-
 class ProductInline(admin.StackedInline):
-    model = ProductImage
+    model = ImageProduct
 
 
 @admin.action(description="Archive products")
@@ -49,7 +48,7 @@ class ProductAdmin(admin.ModelAdmin, ExportAsCSVMixin):
             "classes": ("wide", "collapse"),
         }),
         ("Images", {
-            "fields": ("preview", ),
+            "fields": ("preview",),
         }),
         ("Extra options", {
             "fields": ("archived",),
