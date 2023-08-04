@@ -1,0 +1,26 @@
+{% extends 'myauth/base.html' %}
+
+{% block title %}
+  User #{{ object.pk }}
+{% endblock %}
+
+{% block body %}
+<h1>User info</h1>
+<h2>Details</h2>
+<p>Username: {{object.username}}</p>
+<p>Firstname: {{object.firstname}}</p>
+<p>Lastname: {{object.lastname}}</p>
+<p>Email: {{object.email}}</p>
+<p>Bio: {{user.object.boi}}</p>
+  {% if object.profile.avatar %}
+    <img src="{{ object.profile.avatar.url }}" alt="{{ object.profile.avatar.name }}">
+  {% else %}
+    <h2>Фото не загружено</h2>
+  {% endif %}
+{% if object.profile.pk == user.profile.pk or user.is_superuser %}
+<div>
+  <a href=" {% url 'myauth:update' pk=object.profile.pk %} ">
+    >Foto update</a>
+</div>
+{% endif %}
+{% endblock %}

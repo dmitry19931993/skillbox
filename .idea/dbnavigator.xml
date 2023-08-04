@@ -12,24 +12,18 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="dec16800-d965-4e26-b56a-fe7be7471b2e">
-      <console name="Connection 1" type="STANDARD" schema="" session="Main" />
+    <connection id="8e3684a0-5d34-4d30-a8a4-e7f3678be2f6">
+      <console name="Connection" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="dec16800-d965-4e26-b56a-fe7be7471b2e" object-ref="schemas/main/tables/auth_user" />
-      <object connection-id="dec16800-d965-4e26-b56a-fe7be7471b2e" object-ref="schemas/main/tables/myauth_profile" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="dec16800-d965-4e26-b56a-fe7be7471b2e" dataset="main.auth_user" active-filter-id="EMPTY_FILTER" />
-    <filter-actions connection-id="dec16800-d965-4e26-b56a-fe7be7471b2e" dataset="main.auth_user_groups" active-filter-id="" />
-    <filter-actions connection-id="dec16800-d965-4e26-b56a-fe7be7471b2e" dataset="main.sqlite_sequence" active-filter-id="EMPTY_FILTER" />
-    <filter-actions connection-id="dec16800-d965-4e26-b56a-fe7be7471b2e" dataset="main.myauth_profile" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="8e3684a0-5d34-4d30-a8a4-e7f3678be2f6" dataset="main.shopapp_product" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
@@ -48,9 +42,9 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="dec16800-d965-4e26-b56a-fe7be7471b2e" active="true" signed="true">
+      <connection id="8e3684a0-5d34-4d30-a8a4-e7f3678be2f6" active="true" signed="true">
         <database>
-          <name value="Connection 1" />
+          <name value="Connection" />
           <description value="" />
           <database-type value="SQLITE" />
           <config-type value="BASIC" />
@@ -65,7 +59,7 @@
           <tns-folder value="" />
           <tns-profile value="" />
           <files>
-            <file path="$PROJECT_DIR$/M_11_Files/mysite/db.sqlite3" schema="main" />
+            <file path="$PROJECT_DIR$/M_15_queries/mysite/db.sqlite3" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />
