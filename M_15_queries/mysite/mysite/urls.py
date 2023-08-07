@@ -21,6 +21,7 @@ from django.conf.urls.i18n import i18n_patterns
 from drf_spectacular.views import SpectacularAPIView, SpectacularRedocView, SpectacularSwaggerView
 
 urlpatterns = [
+    path('blogapp/', include('blogapp.urls')),
     path('admin/doc/', include('django.contrib.admindocs.urls')),
     path('req/', include('requestdataapp.urls')),
     path('api/schema', SpectacularAPIView.as_view(), name= "schema"),
