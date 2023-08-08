@@ -10,6 +10,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         self.stdout.write("Create products")
+        user = User.objects.get(username="admin")
 
         products_names = [
             "Laptop",
