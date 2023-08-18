@@ -4,6 +4,7 @@
 Разные view интеренет-магазина: по товарам, по заказам и т.д.
 """
 
+import logging
 from timeit import default_timer
 
 from django.contrib.auth.models import Group
@@ -21,6 +22,10 @@ from rest_framework.filters import SearchFilter, OrderingFilter
 from django_filters.rest_framework import DjangoFilterBackend
 from .serializers import ProductSerializer, OrderSerializer
 from drf_spectacular.utils import extend_schema, OpenApiResponse
+
+
+
+log = logging.getLogger(__name__)
 
 
 @extend_schema(description="Product views CRUD")
@@ -85,6 +90,8 @@ class ShopIndexView(View):
             "products": products,
             "items": 1,
         }
+        log.debug("Products for shop index: %s", products)
+        log.info("Rendering shop index")
         return render(request, 'shopapp/shop-index.html', context=context)
 
 class GroupsListView(View):

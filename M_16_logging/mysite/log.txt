@@ -1,0 +1,32 @@
+2023-08-08 20:46:41,562 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-08 20:57:49,945 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/M_16_logging/mysite/mysite/settings.py changed, reloading.
+2023-08-08 20:57:52,518 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-08 21:00:26,520 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/M_16_logging/mysite/mysite/urls.py changed, reloading.
+2023-08-08 21:00:29,711 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-08 21:01:57,158 [INFO] shopapp.views : Rendering shop index
+2023-08-16 20:29:11,071 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-16 20:30:44,417 [WARNING] django.request : Not Found: /
+2023-08-17 21:51:00,231 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-17 21:51:26,293 [WARNING] django.request : Not Found: /
+2023-08-18 21:03:59,165 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-18 21:04:41,810 [WARNING] django.request : Not Found: /
+2023-08-18 21:04:52,102 [WARNING] django.request : Not Found: /favicon.ico
+2023-08-18 21:07:48,214 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/M_16_logging/mysite/shopapp/views.py changed, reloading.
+2023-08-18 21:07:56,380 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-18 21:08:07,172 [ERROR] django.request : Internal Server Error: /ru/shop/products/export/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/python_django/M_16_logging/mysite/shopapp/views.py", line 216, in get
+    print(a)
+NameError: name 'a' is not defined
+2023-08-18 21:09:42,276 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/M_16_logging/mysite/shopapp/views.py changed, reloading.
+2023-08-18 21:09:48,236 [INFO] django.utils.autoreload : Watching for file changes with StatReloader

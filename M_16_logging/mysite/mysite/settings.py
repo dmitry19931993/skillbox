@@ -15,6 +15,25 @@ from pathlib import Path
 from django.urls import reverse_lazy
 from django.utils.translation import gettext_lazy as _
 
+import sentry_sdk
+from sentry_sdk.integrations.django import DjangoIntegration
+sentry_sdk.init(
+dsn="https://b5b145910c76913e9d1e91d69e3a1b62@o4505727923519488.ingest.sentry.io/4505727929876480",
+integrations=[DjangoIntegration()],
+# If you wish to associate users to errors (assuming you are using
+# django.contrib.auth) you may enable sending PII data.
+send_default_pii=True,
+# Set traces_sample_rate to 1.0 to capture 100%
+# of transactions for performance monitoring.
+# We recommend adjusting this value in production.
+traces_sample_rate=1.0,
+# To set a uniform sample rate
+# Set profiles_sample_rate to 1.0 to profile 100%
+# of sampled transactions.
+# We recommend adjusting this value in production,
+profiles_sample_rate=1.0,
+)
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -28,7 +47,21 @@ SECRET_KEY = 'django-insecure-hvxn%qq=gyw^4*o2lo1#bw0=wh#ux9s8h!=@c608arf_gz3+^7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "0.0.0.0",
+    "127.0.0.1",
+]
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
+
+if DEBUG:
+    import socket
+    hostname, _, ips = socket.gethostbyname_ex(socket.gethostname())
+    INTERNAL_IPS.append("10.0.2.2")
+    INTERNAL_IPS.extend(
+        [ip[: ip.rfind(".")] + ".1" for ip in ips]
+    )
 
 
 # Application definition
@@ -44,6 +77,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'drf_spectacular',
+    'debug_toolbar',
 
     'shopapp.apps.ShopappConfig',
     'requestdataapp.apps.RequestdataappConfig',
@@ -64,6 +98,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     "django.middleware.locale.LocaleMiddleware",
     'django.contrib.admindocs.middleware.XViewMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'mysite.urls'
@@ -134,10 +169,7 @@ LOCALE_PATHS = [
     BASE_DIR/"locale/",
 ]
 
-LANGUAGES = [
-    ("en", _("English")),
-    ("ru", _("Russian")),
-]
+
 
 
 # Static files (CSS, JavaScript, Images)
@@ -173,24 +205,37 @@ SPECTACULAR_SETTINGS = {
     'SERVE_INCLUDE_SCHEMA' : False,
 }
 
+LOGFILE_NAME = BASE_DIR/"log.txt"
+LOGFILE_SIZE = 10 * 1024 * 1024
+LOGFILE_COUNT = 3
+
 LOGGING = {
-    'version': 1,
-    'filters': {
-        'require_debug_true': {
-            '()': 'django.utils.log.RequireDebugTrue',
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "verbose": {
+            "format": "%(asctime)s [%(levelname)s] %(name)s : %(message)s",
         },
     },
-    'handlers': {
-        'console': {
-            'level': 'DEBUG',
-            'filters': ['require_debug_true'],
-            'class': 'logging.StreamHandler',
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "verbose",
+        },
+        "logfile": {
+            "class": "logging.handlers.RotatingFileHandler",
+            "filename": LOGFILE_NAME,
+            "maxBytes": LOGFILE_SIZE,
+            "backupCount": LOGFILE_COUNT,
+            "formatter": "verbose",
         },
     },
-    'loggers': {
-        'django.db.backends': {
-            'level': 'DEBUG',
-            'handlers': ['console'],
-        }
+    "root": {
+        "handlers": [
+            "console",
+            "logfile",
+        ],
+        "level": "INFO",
+
     },
 }
