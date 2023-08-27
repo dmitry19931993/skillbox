@@ -10,7 +10,9 @@
     <div>
       {% for article in object_list %}
         <div>
-          <p>Article #{{ article.pk }}</p>
+          <p>
+            <a href="{% url 'blogapp:articles_detail' pk=article.pk %}">Article #{{ article.pk }}</a>
+          </p>
           <p>Title: {{ article.title }}</p>
           <p>Article at: {{ article.pub_date }}</p>
           <p>Article by {{ article.author.name }}</p>

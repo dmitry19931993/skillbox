@@ -1,6 +1,7 @@
 from django.contrib.auth.models import User
 from django.db import models
 from django.utils.translation import gettext_lazy as _
+from django.urls import reverse
 
 def products_preview_directory_path(instance: "Product", filename : str) -> str:
     return "products/product_{pk}/preview/{filename}".format(
@@ -39,6 +40,9 @@ class Product(models.Model):
 
     def __str__(self):
         return f"Product(pk={self.pk}, name={self.name!r})"
+
+    def get_absolute_url(self):
+        return reverse("shopapp:products_detail", kwargs={"pk": self.pk})
 
 def products_images_directory_path(instance: "ImageProduct", filename : str) -> str:
     return "products/product_{pk}/images/{filename}".format(

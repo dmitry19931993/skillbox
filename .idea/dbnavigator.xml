@@ -12,7 +12,7 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="8e3684a0-5d34-4d30-a8a4-e7f3678be2f6">
+    <connection id="0fe534d4-edcb-48bf-b0ff-85a2837db3f8">
       <console name="Connection" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
@@ -20,11 +20,12 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="0fe534d4-edcb-48bf-b0ff-85a2837db3f8" object-ref="schemas/main/tables/shopapp_product" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="8e3684a0-5d34-4d30-a8a4-e7f3678be2f6" dataset="main.blogapp_article_tags" active-filter-id="EMPTY_FILTER" />
-    <filter-actions connection-id="8e3684a0-5d34-4d30-a8a4-e7f3678be2f6" dataset="main.shopapp_product" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="0fe534d4-edcb-48bf-b0ff-85a2837db3f8" dataset="main.shopapp_product" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
@@ -43,7 +44,7 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="8e3684a0-5d34-4d30-a8a4-e7f3678be2f6" active="true" signed="true">
+      <connection id="0fe534d4-edcb-48bf-b0ff-85a2837db3f8" active="true" signed="true">
         <database>
           <name value="Connection" />
           <description value="" />
@@ -60,7 +61,7 @@
           <tns-folder value="" />
           <tns-profile value="" />
           <files>
-            <file path="$PROJECT_DIR$/M_15_queries/mysite/db.sqlite3" schema="main" />
+            <file path="$PROJECT_DIR$/import_export/mysite/db.sqlite3" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />

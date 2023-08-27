@@ -18,6 +18,7 @@ from .views import (
     ProductsDataExportView,
     ProductViewSet,
     OrderViewSet,
+    LatestProductsFeed,
 )
 
 routers = DefaultRouter()
@@ -35,9 +36,10 @@ urlpatterns = [
     path("products/", ProductListView.as_view(), name="products_list"),
     path("products/export/", ProductsDataExportView.as_view(), name="products-export"),
     path("products/<int:pk>/", ProductDetailView.as_view(), name="products_detail"),
-    path("products/<int:pk>/update", ProductUpdateView.as_view(), name="products_update"),
-    path("products/<int:pk>/archive", ProductDeleteView.as_view(), name="products_archive"),
-    path("products/create", ProductCreateView.as_view(), name="create-product"),
+    path("products/<int:pk>/updat/e", ProductUpdateView.as_view(), name="products_update"),
+    path("products/<int:pk>/archive/", ProductDeleteView.as_view(), name="products_archive"),
+    path("products/create/", ProductCreateView.as_view(), name="create-product"),
+    path("products/latest/feed/", LatestProductsFeed(), name="products-feed"),
     path("orders/", OrderListView.as_view(), name="orders_list"),
     path("orders/export/", OrdersDataExportView.as_view(), name="orders-export"),
     path("orders/<int:pk>/", OrderDetailView.as_view(), name="orders_detail"),
