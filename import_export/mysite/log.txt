@@ -1681,3 +1681,80 @@ TypeError: combine() argument 1 must be datetime.date, not str
 2023-08-27 21:04:22,355 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
 2023-08-27 21:06:05,507 [WARNING] django.request : Not Found: /
 2023-08-27 21:06:14,493 [WARNING] django.request : Not Found: /favicon.ico
+2023-08-30 20:47:55,243 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-30 20:50:07,821 [WARNING] django.request : Not Found: /
+2023-08-30 20:50:07,841 [WARNING] django.request : Not Found: /
+2023-08-30 20:51:06,938 [ERROR] django.request : Internal Server Error: /sitemap.xml
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/sitemaps/views.py", line 34, in inner
+    response = func(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/sitemaps/views.py", line 132, in sitemap
+    lastmod = _get_latest_lastmod(lastmod, site_lastmod)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/sitemaps/views.py", line 47, in _get_latest_lastmod
+    new_lastmod = datetime.datetime.combine(new_lastmod, datetime.time.min)
+TypeError: combine() argument 1 must be datetime.date, not str
+2023-08-30 20:55:16,695 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/import_export/mysite/shopapp/sitemap.py changed, reloading.
+2023-08-30 20:55:19,812 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-30 20:55:27,649 [ERROR] django.request : Internal Server Error: /sitemap.xml
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/sitemaps/views.py", line 34, in inner
+    response = func(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/sitemaps/views.py", line 132, in sitemap
+    lastmod = _get_latest_lastmod(lastmod, site_lastmod)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/sitemaps/views.py", line 47, in _get_latest_lastmod
+    new_lastmod = datetime.datetime.combine(new_lastmod, datetime.time.min)
+TypeError: combine() argument 1 must be datetime.date, not str
+2023-08-30 20:58:12,588 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-30 21:01:04,670 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-30 21:01:17,317 [ERROR] django.request : Internal Server Error: /sitemap.xml
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/sitemaps/views.py", line 34, in inner
+    response = func(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/sitemaps/views.py", line 132, in sitemap
+    lastmod = _get_latest_lastmod(lastmod, site_lastmod)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/sitemaps/views.py", line 47, in _get_latest_lastmod
+    new_lastmod = datetime.datetime.combine(new_lastmod, datetime.time.min)
+TypeError: combine() argument 1 must be datetime.date, not str
+2023-08-30 21:03:28,163 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/import_export/mysite/mysite/sitemaps.py changed, reloading.
+2023-08-30 21:03:29,811 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-30 21:03:34,347 [ERROR] django.request : Internal Server Error: /sitemap.xml
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/sitemaps/views.py", line 34, in inner
+    response = func(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/sitemaps/views.py", line 132, in sitemap
+    lastmod = _get_latest_lastmod(lastmod, site_lastmod)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/sitemaps/views.py", line 47, in _get_latest_lastmod
+    new_lastmod = datetime.datetime.combine(new_lastmod, datetime.time.min)
+TypeError: combine() argument 1 must be datetime.date, not str
+2023-08-30 21:05:45,669 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/import_export/mysite/mysite/sitemaps.py changed, reloading.
+2023-08-30 21:05:50,054 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-30 21:05:57,678 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/import_export/mysite/mysite/sitemaps.py changed, reloading.
+2023-08-30 21:05:59,132 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-30 21:09:16,949 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/import_export/mysite/shopapp/sitemap.py changed, reloading.
+2023-08-30 21:09:19,284 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-30 21:09:47,360 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/import_export/mysite/mysite/sitemaps.py changed, reloading.
+2023-08-30 21:09:50,188 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
