@@ -4,16 +4,23 @@
   Article #{{ object.pk }}
 {% endblock %}
 
-
 {% block body %}
-  <h1>Article</h1>
-  <div>
-    <p>{{ article.title }}</p>
-    <p>Published: {{ article.published_at }}</p>
-    <p>Body: {{ article.body }}</p>
-  </div>
-  <div>
-    <a href="{% url 'blogapp:articles' %}">Back to articles list</a>
-  </div>
+<h1>Article</h1>
+<div>
+    <p>Title: {{ object.title }}</p>
+    <p>Article at: {{ object.pub_date }}</p>
+    <p>Article by {{ object.author.name }}</p>
+    <p>Catagory: <code>{{ object.category.name }}</code></p>
+    <div>
+        Tag in article:
+        <ul>
+            {% for tag in object.tags.all %}
+            <li>{{ tag.name }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+<div>
+    <a href="{% url 'blogapp:articles_list' %}">Back to articles list</a>
+</div>
 {% endblock %}
-

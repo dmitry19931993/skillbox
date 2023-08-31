@@ -1,21 +1,23 @@
+from csv import DictReader
+from io import TextIOWrapper
+
 from django.contrib import admin
 from django.db.models import QuerySet
 from django.http import HttpRequest, HttpResponse
-from django.shortcuts import render, redirect
-from django.urls import path
 
 from .common import save_csv_products
-from .models import Product, Order, ProductImage
+from .models import Product, Order, ImageProduct
 from .admin_mixins import ExportAsCSVMixin
 from .forms import CSVImportForm
+from django.shortcuts import render, redirect
+from django.urls import path
 
 
 class OrderInline(admin.TabularInline):
     model = Product.orders.through
 
-
 class ProductInline(admin.StackedInline):
-    model = ProductImage
+    model = ImageProduct
 
 
 @admin.action(description="Archive products")
@@ -54,7 +56,7 @@ class ProductAdmin(admin.ModelAdmin, ExportAsCSVMixin):
             "classes": ("wide", "collapse"),
         }),
         ("Images", {
-            "fields": ("preview", ),
+            "fields": ("preview",),
         }),
         ("Extra options", {
             "fields": ("archived",),
@@ -72,22 +74,23 @@ class ProductAdmin(admin.ModelAdmin, ExportAsCSVMixin):
         if request.method == "GET":
             form = CSVImportForm()
             context = {
-                "form": form,
+                "form" : form
             }
             return render(request, "admin/csv_form.html", context)
         form = CSVImportForm(request.POST, request.FILES)
         if not form.is_valid():
             context = {
-                "form": form,
+                "form" : form
             }
-            return render(request, "admin/csv_form.html", context, status=400)
+            return render(request, "admin/csv_form.html", context, status="400")
 
         save_csv_products(
-            file=form.files["csv_file"].file,
+            file=form.files['csv_file'].file,
             encoding=request.encoding,
         )
+
         self.message_user(request, "Data from CSV was imported")
-        return redirect("..")
+        return redirect('..')
 
     def get_urls(self):
         urls = super().get_urls()
@@ -95,7 +98,7 @@ class ProductAdmin(admin.ModelAdmin, ExportAsCSVMixin):
             path(
                 "import-products-csv/",
                 self.import_csv,
-                name="import_products_csv",
+                name= "import_products_csv",
             ),
         ]
         return new_urls + urls
@@ -111,7 +114,7 @@ class ProductInline(admin.StackedInline):
 
 @admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):
-
+    change_list_template = "shopapp/orders_changelist.html"
     inlines = [
         ProductInline,
     ]
@@ -122,3 +125,42 @@ class OrderAdmin(admin.ModelAdmin):
 
     def user_verbose(self, obj: Order) -> str:
         return obj.user.first_name or obj.user.username
+
+    def import_csv(self, request: HttpRequest) -> HttpResponse:
+        if request.method == "GET":
+            form = CSVImportForm()
+            context = {
+                "form": form
+            }
+            return render(request, "admin/csv_form.html", context)
+        form = CSVImportForm(request.POST, request.FILES)
+        if not form.is_valid():
+            context = {
+                "form": form
+            }
+            return render(request, "admin/csv_form.html", context, status="400")
+
+        csv_file = TextIOWrapper(
+            form.files['csv_file'].file,
+            encoding=request.encoding,
+        )
+        reader = DictReader(csv_file)
+        orders = [
+            Order(**row)
+            for row in reader
+        ]
+        Order.objects.bulk_create(orders)
+
+        self.message_user(request, "Data from CSV was imported")
+        return redirect('..')
+
+    def get_urls(self):
+        urls = super().get_urls()
+        new_urls = [
+            path(
+                "import-orders-csv/",
+                self.import_csv,
+                name= "import_orders_csv",
+            ),
+        ]
+        return new_urls + urls
