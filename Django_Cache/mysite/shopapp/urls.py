@@ -1,4 +1,5 @@
 from django.urls import path, include
+from django.views.decorators.cache import cache_page
 from rest_framework.routers import DefaultRouter
 
 from .views import (
@@ -15,6 +16,8 @@ from .views import (
     OrdersDataExportView,
     OrderUpdateView,
     OrderDeleteView,
+    UserOrdersListView,
+    UserOrdersDataExportView,
     ProductsDataExportView,
     ProductViewSet,
     OrderViewSet,
@@ -36,7 +39,7 @@ urlpatterns = [
     path("products/", ProductListView.as_view(), name="products_list"),
     path("products/export/", ProductsDataExportView.as_view(), name="products-export"),
     path("products/<int:pk>/", ProductDetailView.as_view(), name="products_detail"),
-    path("products/<int:pk>/updat/e", ProductUpdateView.as_view(), name="products_update"),
+    path("products/<int:pk>/update/", ProductUpdateView.as_view(), name="products_update"),
     path("products/<int:pk>/archive/", ProductDeleteView.as_view(), name="products_archive"),
     path("products/create/", ProductCreateView.as_view(), name="create-product"),
     path("products/latest/feed/", LatestProductsFeed(), name="products-feed"),
@@ -46,5 +49,6 @@ urlpatterns = [
     path("orders/<int:pk>/update", OrderUpdateView.as_view(), name="orders_update"),
     path("orders/<int:pk>/delete", OrderDeleteView.as_view(), name="orders_delete"),
     path("orders/create", OrderCreateView.as_view(), name="create-order"),
-
+    path("users/<int:user_id>/orders/", UserOrdersListView.as_view(), name="user-orders-list"),
+    path("users/<int:user_id>/orders/export", UserOrdersDataExportView.as_view(), name="user-orders-export"),
 ]

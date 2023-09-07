@@ -1758,3 +1758,1051 @@ TypeError: combine() argument 1 must be datetime.date, not str
 2023-08-30 21:09:19,284 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
 2023-08-30 21:09:47,360 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/import_export/mysite/mysite/sitemaps.py changed, reloading.
 2023-08-30 21:09:50,188 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-31 21:09:23,806 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-31 21:11:11,415 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/mysite/settings.py changed, reloading.
+2023-08-31 21:11:16,460 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-31 21:11:55,723 [WARNING] django.request : Not Found: /
+2023-08-31 21:11:55,746 [WARNING] django.request : Not Found: /
+2023-08-31 21:12:10,833 [INFO] shopapp.views : Rendering shop index
+2023-08-31 21:12:58,902 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/mysite/settings.py changed, reloading.
+2023-08-31 21:13:03,945 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-31 21:17:10,281 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/mysite/settings.py changed, reloading.
+2023-08-31 21:17:14,468 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-31 21:18:58,559 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/myauth/views.py changed, reloading.
+2023-08-31 21:18:59,930 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-31 21:19:16,840 [WARNING] django.request : Not Found: /myauth/cookie/get/
+2023-08-31 21:20:29,012 [WARNING] django.request : Not Found: /req/cookie/get/
+2023-08-31 21:20:53,459 [WARNING] django.request : Not Found: /cookie/get/
+2023-08-31 21:23:45,082 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/myauth/views.py changed, reloading.
+2023-08-31 21:23:49,094 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-31 21:24:27,921 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/myauth/views.py changed, reloading.
+2023-08-31 21:24:34,755 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-31 21:26:37,417 [INFO] shopapp.views : Rendering shop index
+2023-08-31 21:26:41,122 [INFO] shopapp.views : Rendering shop index
+2023-08-31 21:28:15,280 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/urls.py changed, reloading.
+2023-08-31 21:28:17,677 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-08-31 21:28:22,466 [INFO] shopapp.views : Rendering shop index
+2023-08-31 21:31:47,145 [INFO] shopapp.views : Rendering shop index
+2023-08-31 21:37:18,879 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-08-31 21:37:24,175 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-03 20:45:05,750 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-03 20:46:03,230 [WARNING] django.request : Not Found: /
+2023-09-03 20:46:22,465 [INFO] shopapp.views : Rendering shop index
+2023-09-03 20:49:46,300 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/urls.py changed, reloading.
+2023-09-03 20:49:50,195 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-03 20:50:40,965 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/urls.py changed, reloading.
+2023-09-03 20:50:42,863 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-03 20:50:48,716 [INFO] shopapp.views : Rendering shop index
+2023-09-03 20:50:52,955 [INFO] shopapp.views : Rendering shop index
+2023-09-03 20:50:54,532 [INFO] shopapp.views : Rendering shop index
+2023-09-03 20:50:56,000 [INFO] shopapp.views : Rendering shop index
+2023-09-03 20:51:26,012 [INFO] shopapp.views : Rendering shop index
+2023-09-03 20:51:27,381 [INFO] shopapp.views : Rendering shop index
+2023-09-03 20:51:28,770 [INFO] shopapp.views : Rendering shop index
+2023-09-03 21:00:42,291 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-03 21:00:51,886 [WARNING] django.request : Not Found: /
+2023-09-03 21:13:18,065 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-03 21:13:20,802 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-04 20:35:13,104 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-04 20:36:02,253 [WARNING] django.request : Not Found: /
+2023-09-04 20:37:44,488 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/1/orders/
+2023-09-04 20:37:44,754 [WARNING] django.request : Method Not Allowed: /ru/shop/users/1/orders/
+2023-09-06 13:11:15,372 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:12:29,596 [WARNING] django.request : Not Found: /
+2023-09-06 13:13:52,981 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:13:57,369 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:14:07,261 [INFO] shopapp.views : Rendering shop index
+2023-09-06 13:15:18,952 [INFO] shopapp.views : Rendering shop index
+2023-09-06 13:16:47,305 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:16:54,342 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:20:07,673 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:20:09,509 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:20:21,048 [WARNING] django.request : Not Found: /ru/shop/1/orders/
+2023-09-06 13:20:50,537 [WARNING] django.request : Not Found: /ru/users/1/orders/
+2023-09-06 13:21:01,483 [WARNING] django.request : Not Found: /ru/user/1/orders/
+2023-09-06 13:21:39,368 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/1/orders/
+2023-09-06 13:21:39,470 [WARNING] django.request : Method Not Allowed: /ru/shop/users/1/orders/
+2023-09-06 13:21:44,895 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/1/orders/
+2023-09-06 13:21:44,969 [WARNING] django.request : Method Not Allowed: /ru/shop/users/1/orders/
+2023-09-06 13:21:46,383 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/1/orders/
+2023-09-06 13:21:46,453 [WARNING] django.request : Method Not Allowed: /ru/shop/users/1/orders/
+2023-09-06 13:24:04,165 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:24:08,574 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:24:14,766 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/1/orders/
+2023-09-06 13:24:15,415 [WARNING] django.request : Method Not Allowed: /ru/shop/users/1/orders/
+2023-09-06 13:24:18,142 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/1/orders/
+2023-09-06 13:24:18,257 [WARNING] django.request : Method Not Allowed: /ru/shop/users/1/orders/
+2023-09-06 13:25:56,167 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:26:01,278 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:26:05,438 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/1/orders/
+2023-09-06 13:26:05,830 [WARNING] django.request : Method Not Allowed: /ru/shop/users/1/orders/
+2023-09-06 13:26:08,123 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/1/orders/
+2023-09-06 13:26:08,390 [WARNING] django.request : Method Not Allowed: /ru/shop/users/1/orders/
+2023-09-06 13:26:14,108 [INFO] shopapp.views : Rendering shop index
+2023-09-06 13:26:52,558 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:26:59,966 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:27:07,942 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/1/orders/
+2023-09-06 13:27:08,609 [WARNING] django.request : Method Not Allowed: /ru/shop/users/1/orders/
+2023-09-06 13:31:20,752 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/urls.py changed, reloading.
+2023-09-06 13:31:23,382 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:31:27,507 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/1/orders/
+2023-09-06 13:31:27,768 [WARNING] django.request : Method Not Allowed: /ru/shop/users/1/orders/
+2023-09-06 13:31:30,705 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/1/orders/
+2023-09-06 13:31:30,826 [WARNING] django.request : Method Not Allowed: /ru/shop/users/1/orders/
+2023-09-06 13:31:32,018 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/1/orders/
+2023-09-06 13:31:32,125 [WARNING] django.request : Method Not Allowed: /ru/shop/users/1/orders/
+2023-09-06 13:33:20,603 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:33:26,416 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:33:46,872 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:33:59,075 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:34:01,316 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:36:03,423 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:36:05,432 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:38:24,588 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:38:29,294 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:38:36,590 [ERROR] django.request : Internal Server Error: /ru/shop/users/1/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 309, in get_queryset
+    self.owner = User.objects.get(pk= self.kwargs['user_id'])
+NameError: name 'User' is not defined
+2023-09-06 13:40:25,571 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:40:29,657 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:40:53,047 [ERROR] django.request : Internal Server Error: /ru/shop/users/2/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 310, in get_queryset
+    self.owner = User.objects.get(pk= self.kwargs['user_id'])
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-09-06 13:43:12,420 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:43:17,090 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:43:24,387 [ERROR] django.request : Internal Server Error: /ru/shop/users/2/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 310, in get_queryset
+    self.owner = User.objects.get(pk= self.kwargs['user_id'])
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-09-06 13:46:29,123 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:46:30,774 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:46:41,459 [ERROR] django.request : Internal Server Error: /ru/shop/users/1/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 310, in get_queryset
+    self.owner = get_object_or_404(User, pk= self.kwargs['user_id'])
+NameError: name 'get_object_or_404' is not defined
+2023-09-06 13:50:47,603 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:50:50,762 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:50:59,216 [ERROR] django.request : Internal Server Error: /ru/shop/users/2/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 310, in get_queryset
+    self.owner = User.objects.get(pk= self.kwargs['user_id'])
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-09-06 13:52:16,905 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:52:19,008 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:52:24,883 [ERROR] django.request : Internal Server Error: /ru/shop/users/2/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 310, in get_queryset
+    self.owner = User.objects.get_object_or_404(pk= self.kwargs['user_id'])
+AttributeError: 'UserManager' object has no attribute 'get_object_or_404'
+2023-09-06 13:56:25,037 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:56:26,602 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:59:06,914 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 13:59:10,631 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 13:59:17,095 [ERROR] django.request : Internal Server Error: /ru/shop/users/3/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 310, in get_queryset
+    self.owner = User.objects.get_username(pk= self.kwargs['user_id'])
+AttributeError: 'UserManager' object has no attribute 'get_username'
+2023-09-06 14:03:26,491 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 14:03:32,803 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 14:03:38,335 [ERROR] django.request : Internal Server Error: /ru/shop/users/3/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 311, in get_queryset
+    self.owner = User.objects.get_object_or_404(pk= self.kwargs['user_id'])
+AttributeError: 'UserManager' object has no attribute 'get_object_or_404'
+2023-09-06 14:03:41,615 [ERROR] django.request : Internal Server Error: /ru/shop/users/3/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 311, in get_queryset
+    self.owner = User.objects.get_object_or_404(pk= self.kwargs['user_id'])
+AttributeError: 'UserManager' object has no attribute 'get_object_or_404'
+2023-09-06 20:06:46,470 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 20:07:56,668 [WARNING] django.request : Not Found: /
+2023-09-06 20:16:16,184 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 20:16:20,872 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 20:16:50,118 [WARNING] django.request : Not Found: /ru/shop/users/2/orders/
+2023-09-06 20:17:18,975 [INFO] shopapp.views : Rendering shop index
+2023-09-06 20:17:28,807 [WARNING] django.request : Not Found: /logout
+2023-09-06 20:17:47,154 [WARNING] django.request : Not Found: /account
+2023-09-06 20:18:00,436 [WARNING] django.request : Not Found: /
+2023-09-06 20:18:44,547 [WARNING] django.request : Not Found: /accounts
+2023-09-06 20:20:54,735 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 20:20:58,976 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 20:23:34,567 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 20:23:39,481 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 20:25:36,493 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 20:25:44,101 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 20:30:34,394 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 20:30:37,353 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 20:31:21,540 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 20:31:28,395 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 20:37:09,091 [INFO] shopapp.views : Rendering shop index
+2023-09-06 20:39:28,581 [WARNING] django.request : Not Found: /articles/
+2023-09-06 20:39:33,353 [WARNING] django.request : Not Found: /articles/1
+2023-09-06 20:40:05,998 [WARNING] django.request : Not Found: /accounts/articles/1
+2023-09-06 20:44:22,573 [INFO] shopapp.views : Rendering shop index
+2023-09-06 20:44:50,003 [WARNING] django.request : Not Found: /ru/shop/users/1/orders//
+2023-09-06 20:52:30,848 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/urls.py changed, reloading.
+2023-09-06 20:52:34,461 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 20:52:44,091 [WARNING] django.request : Not Found: /ru/shop/users/2/orders/
+2023-09-06 20:54:30,700 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 20:54:34,839 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 20:55:47,167 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 20:55:52,767 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 20:59:25,558 [ERROR] django.request : Internal Server Error: /ru/shop/users/1/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 38, in sentry_patched_render
+    return old_render(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/templates.py", line 75, in rendered_content
+    return real_rendered_content.fget(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 952, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/smartif.py", line 197, in parse
+    raise self.error_class(
+django.template.exceptions.TemplateSyntaxError: Unused 'order.user.first_name' at end of if expression.
+2023-09-06 21:05:59,716 [WARNING] django.request : Not Found: /ru/shop/users/2/orders/
+2023-09-06 21:06:22,408 [WARNING] django.request : Not Found: /ru/shop/users/4/orders/
+2023-09-06 21:11:11,821 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 21:11:17,788 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 21:11:22,232 [ERROR] django.request : Internal Server Error: /ru/shop/users/5/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 174, in get
+    context = self.get_context_data()
+  File "/home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py", line 317, in get_context_data
+    context = super.get_context_data(**kwargs)
+AttributeError: type object 'super' has no attribute 'get_context_data'
+2023-09-06 21:12:09,506 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 21:12:13,040 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 21:13:03,227 [ERROR] django.request : Internal Server Error: /ru/shop/users/1/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'owner.pk'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 38, in sentry_patched_render
+    return old_render(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/templates.py", line 75, in rendered_content
+    return real_rendered_content.fget(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'owner.pk', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+2023-09-06 21:13:11,783 [ERROR] django.request : Internal Server Error: /ru/shop/users/1/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'owner.pk'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 38, in sentry_patched_render
+    return old_render(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/templates.py", line 75, in rendered_content
+    return real_rendered_content.fget(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'owner.pk', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+2023-09-06 21:13:24,943 [ERROR] django.request : Internal Server Error: /ru/shop/users/1/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'owner'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 38, in sentry_patched_render
+    return old_render(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/templates.py", line 75, in rendered_content
+    return real_rendered_content.fget(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'owner', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+2023-09-06 21:13:28,264 [ERROR] django.request : Internal Server Error: /ru/shop/users/1/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'owner'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 38, in sentry_patched_render
+    return old_render(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/templates.py", line 75, in rendered_content
+    return real_rendered_content.fget(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'owner', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+2023-09-06 21:14:04,353 [ERROR] django.request : Internal Server Error: /ru/shop/users/1/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'owner.username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 38, in sentry_patched_render
+    return old_render(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/templates.py", line 75, in rendered_content
+    return real_rendered_content.fget(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'owner.username', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+2023-09-06 21:16:48,416 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 21:16:50,696 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-06 21:16:55,340 [ERROR] django.request : Internal Server Error: /ru/shop/users/1/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'ada'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 38, in sentry_patched_render
+    return old_render(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/templates.py", line 75, in rendered_content
+    return real_rendered_content.fget(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'ada', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+2023-09-06 21:17:28,882 [ERROR] django.request : Internal Server Error: /ru/shop/users/1/orders/
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 38, in sentry_patched_render
+    return old_render(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/templates.py", line 75, in rendered_content
+    return real_rendered_content.fget(self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'user', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+2023-09-06 21:19:15,806 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-06 21:19:22,814 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 19:47:11,100 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 19:48:46,299 [WARNING] django.request : Not Found: /
+2023-09-07 19:48:54,540 [WARNING] django.request : Not Found: /favicon.ico
+2023-09-07 19:50:29,054 [INFO] shopapp.views : Rendering shop index
+2023-09-07 20:06:20,881 [WARNING] django.request : Not Found: /ru/shop/users/2/orders/
+2023-09-07 20:49:04,785 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 20:49:13,898 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 20:49:28,298 [ERROR] django.request : Internal Server Error: /ru/shop/users/1/orders/export
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: UserOrdersDataExportView.get() got an unexpected keyword argument 'user_id'
+2023-09-07 20:50:20,425 [ERROR] django.request : Internal Server Error: /ru/shop/users/1/orders/export
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: UserOrdersDataExportView.get() got an unexpected keyword argument 'user_id'
+2023-09-07 20:51:25,633 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 20:51:34,346 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 20:51:38,533 [ERROR] django.request : Internal Server Error: /ru/shop/users/1/orders/export
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: UserOrdersDataExportView.get() got an unexpected keyword argument 'user_id'
+2023-09-07 20:52:25,384 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 20:52:26,646 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 20:52:32,495 [ERROR] django.request : Internal Server Error: /ru/shop/users/1/orders/export
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: UserOrdersDataExportView.get() got an unexpected keyword argument 'user_id'
+2023-09-07 20:54:06,372 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 20:54:08,946 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 20:54:16,723 [ERROR] django.request : Internal Server Error: /ru/shop/users/2/orders/export
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: UserOrdersDataExportView.get() got an unexpected keyword argument 'user_id'
+2023-09-07 20:56:37,057 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 20:56:39,071 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 20:56:45,249 [ERROR] django.request : Internal Server Error: /ru/shop/users/2/orders/export
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: UserOrdersDataExportView.get() got an unexpected keyword argument 'user_id'
+2023-09-07 20:58:57,131 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 20:59:01,697 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 20:59:08,204 [ERROR] django.request : Internal Server Error: /ru/shop/users/2/orders/export
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: UserOrdersDataExportView.get() got an unexpected keyword argument 'user_id'
+2023-09-07 21:02:11,539 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:02:16,288 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:02:56,238 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:03:02,837 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:04:31,475 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:04:40,204 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:04:49,793 [ERROR] django.request : Internal Server Error: /ru/shop/users/2/orders/export
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: UserOrdersDataExportView.get() got an unexpected keyword argument 'user_id'
+2023-09-07 21:07:11,066 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:07:15,771 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:07:23,921 [ERROR] django.request : Internal Server Error: /ru/shop/users/2/orders/export
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: UserOrdersDataExportView.get() got an unexpected keyword argument 'user_id'
+2023-09-07 21:08:27,842 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:08:35,471 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:08:42,664 [ERROR] django.request : Internal Server Error: /ru/shop/users/2/orders/export
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: UserOrdersDataExportView.get() missing 1 required positional argument: 'queryset'
+2023-09-07 21:11:48,874 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:11:53,784 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:11:59,590 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/2/orders/export
+2023-09-07 21:12:00,180 [WARNING] django.request : Method Not Allowed: /ru/shop/users/2/orders/export
+2023-09-07 21:12:07,231 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/2/orders/export
+2023-09-07 21:12:07,316 [WARNING] django.request : Method Not Allowed: /ru/shop/users/2/orders/export
+2023-09-07 21:12:08,681 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/2/orders/export
+2023-09-07 21:12:08,785 [WARNING] django.request : Method Not Allowed: /ru/shop/users/2/orders/export
+2023-09-07 21:12:10,099 [WARNING] django.request : Method Not Allowed (GET): /ru/shop/users/2/orders/export
+2023-09-07 21:12:10,194 [WARNING] django.request : Method Not Allowed: /ru/shop/users/2/orders/export
+2023-09-07 21:12:34,283 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:12:43,087 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:12:50,044 [ERROR] django.request : Internal Server Error: /ru/shop/users/2/orders/export
+Traceback (most recent call last):
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/sentry_sdk/integrations/django/views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dimashalaiko/PycharmProjects/pythonProject/venv/lib/python3.10/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+TypeError: UserOrdersDataExportView.get_queryset() missing 1 required positional argument: 'request'
+2023-09-07 21:17:25,012 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:17:27,839 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:18:20,031 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:18:25,947 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:19:25,940 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:19:33,391 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:20:50,619 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:20:53,761 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:22:01,854 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:22:07,523 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:22:25,576 [WARNING] django.request : Not Found: /ru/shop/users/2/orders/export
+2023-09-07 21:24:22,171 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:24:27,828 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:25:57,988 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:26:01,008 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:26:31,337 [WARNING] django.request : Not Found: /ru/shop/users/2/orders/export
+2023-09-07 21:32:47,185 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:32:52,223 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:36:53,998 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:36:59,193 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
+2023-09-07 21:39:39,059 [INFO] django.utils.autoreload : /home/dimashalaiko/PycharmProjects/python_django/Django_Cache/mysite/shopapp/views.py changed, reloading.
+2023-09-07 21:39:44,097 [INFO] django.utils.autoreload : Watching for file changes with StatReloader
