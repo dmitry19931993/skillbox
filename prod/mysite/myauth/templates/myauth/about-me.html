@@ -1,27 +1,38 @@
 {% extends 'myauth/base.html' %}
-
 {% load cache %}
 
 {% block title %}
   About me
 {% endblock %}
 
-
 {% block body %}
-  <h1>User info</h1>
-  {% if user.is_authenticated %}
-    <h2>Detail</h2>
+<h1>User info</h1>
+{% if user.is_authenticated %}
+{% cache 300 userinfo user.username %}
+<h2>Details</h2>
+<p>Username: {{user.username}}</p>
+<p>Firstname: {{user.firstname}}</p>
+<p>Lastname: {{user.lastname}}</p>
+<p>Email: {{user.email}}</p>
+<p>Bio: {{user.profile.boi}}</p>
+  {% if user.profile.avatar and user.profile.pk %}
+    <img src="{{ user.profile.avatar.url }}" alt="{{ user.profile.avatar.name }}">
     <div>
-      Products available: {% now "u" %}
+       <a href=" {% url 'myauth:update' pk=user.profile.pk %} ">
+       >Foto update</a>
     </div>
-    {% cache 300 userinfo user.username %}
-      <p>Username: {{ user.username }}</p>
-      <p>First name: {{ user.first_name }}</p>
-      <p>Last name: {{ user.last_name }}</p>
-      <p>Email: {{ user.email }}</p>
-      <p>Bio: {{ user.profile.bio }}</p>
-    {% endcache %}
+  {% elif not user.profile.pk%}
+    <h2>Фото не загружено</h2>
   {% else %}
-    <h2>User is anonymous</h2>
+    <h2>Фото не загружено</h2>
+    <div>
+       <a href=" {% url 'myauth:update' pk=user.profile.pk %} ">
+       >Foto add</a>
+    </div>
   {% endif %}
+{% endcache %}
+{% else %}
+<h2>User is anonymous</h2>
+{% endif %}
+
 {% endblock %}

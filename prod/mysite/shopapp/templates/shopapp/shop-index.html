@@ -1,5 +1,4 @@
 {% extends 'shopapp/base.html' %}
-
 {% load cache %}
 
 {% block title %}
@@ -24,14 +23,18 @@
     </ul>
   </div>
 
+<div>
+  <strong>
+    You have {{ items }} item{{ items|pluralize:"es" }}
+  </strong>
+</div>
+
   <div>
     Time running: {{ time_running }}
   </div>
-
   {% cache 100 lorem %}
     <div>
       {% lorem 3 p random %}
     </div>
   {% endcache %}
-
 {% endblock %}

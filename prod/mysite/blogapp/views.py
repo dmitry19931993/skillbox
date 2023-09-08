@@ -1,36 +1,31 @@
 from django.contrib.syndication.views import Feed
+from django.shortcuts import render
+from django.views import View
+from .models import Tag, Author, Article, Category
 from django.views.generic import ListView, DetailView
 from django.urls import reverse, reverse_lazy
-
-from .models import Article
-
-
-class ArticlesListView(ListView):
+class ArticleListView(ListView):
     queryset = (
-        Article.objects
-        .filter(published_at__isnull=False)
-        .order_by("-published_at")
+        Article.objects.defer("content")
+        .select_related("author")
+        .prefetch_related("tags")
     )
-
 
 class ArticleDetailView(DetailView):
     model = Article
 
-
 class LatestArticlesFeed(Feed):
-    title = "Blog articles (latest)"
-    description = "Updates on changes and addition blog articles"
-    link = reverse_lazy("blogapp:articles")
+    title = "Blog article (latest)"
+    description = "Upadates on changes and addition blog articles"
+    link = reverse_lazy("blogapp:articles_list")
 
     def items(self):
         return (
-            Article.objects
-            .filter(published_at__isnull=False)
-            .order_by("-published_at")[:5]
+            Article.objects.order_by("-pub_date")[:5]
         )
 
     def item_title(self, item: Article):
         return item.title
 
     def item_description(self, item: Article):
-        return item.body[:200]
+        return item.content[:200]
